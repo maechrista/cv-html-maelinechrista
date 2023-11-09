@@ -1,6 +1,8 @@
 body{background-color: rgb(226, 176, 176);
 
-
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
 }
 header{
     color: azure;
@@ -9,14 +11,15 @@ padding: 20px;
 }
 
 .profil{
-    padding: 20px;
+    padding: 10px;
     background-color: rgb(113, 63, 63);
     font-family:Arial, Helvetica, sans-serif;
 }
 
+
 h2{
     padding: 2px;
-    font-size: 15px;
+    font-size: 19px;
     color: azure;
     background-color: rgb(81, 53, 53);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -24,7 +27,7 @@ h2{
 
 p{  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(10, 11, 11);
-
+    font-size: 15px;
     
 }
 
@@ -33,15 +36,28 @@ h3{
     padding: 10px;
 }
 
-ul{
-    color: rgb(9, 11, 11);
-    font-size: 18px;
-    }
-telephone::before{
-    content:"";
-    display:inline-block;
+ 
+   section p.telephone::before {
+    content: "";
+    display: inline-block;
     height: 30px;
-    width:30;
-    background-image: url("phonecv.jpg");
-    background-size: contain;
-}
+    width: 30px;
+    background-image: url("../telephone.png");
+    background-size: cover;
+    }
+    
+    section p.Email::before {
+        content: "";
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        background-image: url("../e-mail.png");
+        background-size: cover;
+    }
+
+
+    li{
+        font-size: 15px;
+    }
+
+    ul{list-style-type: square;}
