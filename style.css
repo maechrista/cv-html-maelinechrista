@@ -69,6 +69,7 @@ header{
     display: flex;
     justify-content: end;
     gap: 1rem;
+    font-size: 20px;
 }
 
 
